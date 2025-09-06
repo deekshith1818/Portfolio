@@ -126,15 +126,12 @@ export const FRONTEND_SKILL = [
     width: 80,
     height: 80,
   },
-
   {
     skill_name: "React",
     image: "react.png",
     width: 80,
     height: 80,
   },
-
-
   {
     skill_name: "Next.js 14",
     image: "next.png",
@@ -162,33 +159,66 @@ export const BACKEND_SKILL = [
     width: 40,
     height: 40,
   },
-
-
 ] as const;
 
 export const FULLSTACK_SKILL = [
+  {
+    skill_name: "Next.js",
+    image: "next.png", // Added missing image property
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React",
+    image: "react.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Node.js",
+    image: "node.png",
+    width: 80,
+    height: 80,
+  },
 ] as const;
 
 export const OTHER_SKILL = [
-
+  {
+    skill_name: "Git",
+    image: "git.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Docker",
+    image: "docker.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "AWS",
+    image: "aws.png",
+    width: 80,
+    height: 80,
+  },
 ] as const;
 
 export const PROJECTS = [
   {
     title: "📹 Connectify – The Future of Video Conferencing",
-    
+    description: "A modern video conferencing platform with real-time communication features, built with Next.js and WebRTC technology.",
     image: "/projects/project-1.png",
     link: "https://connectify-frontend-h7qnj1y0i-deekshith-nanavenis-projects.vercel.app/",
   },
   {
     title: "🏨 WanderStay – The Future of Hotel Booking",
-
+    description: "A comprehensive hotel booking platform with advanced search functionality and seamless user experience.",
     image: "/projects/project-2.png",
     link: "https://wanderstay-er5l.onrender.com/",
   },
   {
     title: "📚 StudyBuddy – The Future of Collaborative Learning",
-   
+    description: "An innovative collaborative learning platform that connects students and facilitates group study sessions.",
     image: "/projects/project-3.png",
     link: "https://studybuddy300.netlify.app/",
   },
@@ -198,19 +228,16 @@ export const FOOTER_DATA = [
   {
     title: "Community",
     data: [
-
       {
         name: "GitHub",
         icon: RxGithubLogo,
         link: "https://github.com/deekshith1818",
       },
-
     ],
   },
   {
     title: "Social Media",
     data: [
-
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
@@ -221,7 +248,6 @@ export const FOOTER_DATA = [
   {
     title: "About",
     data: [
-   
       {
         name: "Contact Me",
         icon: null,
@@ -245,5 +271,3 @@ export const NAV_LINKS = [
     link: "#projects",
   },
 ] as const;
-
-
